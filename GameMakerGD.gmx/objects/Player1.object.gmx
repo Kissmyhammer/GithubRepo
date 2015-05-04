@@ -32,7 +32,7 @@ speed_var = 1;
 phy_fixed_rotation=true; 
 
 length = 12;
-w1 = 5;
+w1 = 40;
 w2 = 10;
 c1 = make_color_rgb(255,83,13);
 c2 = c_orange;

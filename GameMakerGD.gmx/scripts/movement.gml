@@ -28,4 +28,3 @@ if(keyboard_check(vk_control) && !Player1.jam ){
     }
 }
 
-
