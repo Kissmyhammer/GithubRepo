@@ -160,6 +160,7 @@
     <instance objName="chargeBarForegroundObj" x="1170" y="300" name="inst_1E2EDED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ballSpawnerCharge" x="1170" y="300" name="inst_14253EE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="jamButton" x="1210" y="200" name="inst_9E312E6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="openTheGates" x="500" y="150" name="inst_EC6F7A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
