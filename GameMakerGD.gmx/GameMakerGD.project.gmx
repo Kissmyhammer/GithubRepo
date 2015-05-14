@@ -21,12 +21,16 @@
         <sprite>sprites\bullutExplosionSprite</sprite>
         <sprite>sprites\PlayerBall</sprite>
         <sprite>sprites\playerSprite</sprite>
+        <sprite>sprites\bulletSpriteV2</sprite>
       </sprites>
       <sprites name="Walls">
         <sprite>sprites\wallHori</sprite>
         <sprite>sprites\wallVerti</sprite>
         <sprite>sprites\wallCorner</sprite>
         <sprite>sprites\theGate</sprite>
+      </sprites>
+      <sprites name="WorldObjets">
+        <sprite>sprites\capacitor</sprite>
       </sprites>
     </sprites>
     <sprites name="UIGroup">
@@ -93,6 +97,9 @@
     <objects name="Bars">
       <object>objects\chargeBarBackgroundObj</object>
       <object>objects\chargeBarForegroundObj</object>
+    </objects>
+    <objects name="WorldObjects">
+      <object>objects\capacitorObject</object>
     </objects>
   </objects>
   <rooms name="rooms">

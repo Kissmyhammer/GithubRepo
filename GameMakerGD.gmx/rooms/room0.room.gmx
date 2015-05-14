@@ -52,8 +52,8 @@
   </views>
   <instances>
     <instance objName="Player1" x="480" y="600" name="inst_A3F02D81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object8" x="494" y="354" name="inst_095BE3A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemySpawner" x="500" y="362" name="inst_88D189E3" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="object8" x="494" y="384" name="inst_095BE3A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemySpawner" x="500" y="392" name="inst_88D189E3" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="WallBend" x="20" y="20" name="inst_6C6FC805" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallBend" x="20" y="740" name="inst_5D050951" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="WallBend" x="980" y="740" name="inst_36D6E35D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
@@ -138,22 +138,6 @@
     <instance objName="WallVertical" x="980" y="140" name="inst_7D9FBB4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallVertical" x="980" y="100" name="inst_1F1643CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallVertical" x="980" y="60" name="inst_48C72710" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="WallBend" x="200" y="180" name="inst_9B1A6094" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="WallBend" x="240" y="180" name="inst_B37C9016" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="WallBend" x="200" y="220" name="inst_3EB8D1EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="WallBend" x="240" y="220" name="inst_AFA2A9CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="WallBend" x="200" y="520" name="inst_76F290A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="WallBend" x="240" y="520" name="inst_4C4E68BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="WallBend" x="200" y="560" name="inst_AFD3E8B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="WallBend" x="240" y="560" name="inst_048420EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="WallBend" x="760" y="180" name="inst_F602AFF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="WallBend" x="800" y="180" name="inst_3102153C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="WallBend" x="760" y="220" name="inst_057EE839" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="WallBend" x="800" y="220" name="inst_46A53332" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="WallBend" x="760" y="520" name="inst_C1346F59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="WallBend" x="760" y="560" name="inst_97B3ABDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="WallBend" x="800" y="520" name="inst_78A2A4D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="WallBend" x="800" y="560" name="inst_1FF81B6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spawnBallButton" x="1310" y="300" name="inst_5E91F6A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stunButton" x="1120" y="200" name="inst_9FA71F0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="chargeBarBackgroundObj" x="1170" y="300" name="inst_F8A8E7B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -161,6 +145,11 @@
     <instance objName="ballSpawnerCharge" x="1170" y="300" name="inst_14253EE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="jamButton" x="1210" y="200" name="inst_9E312E6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="openTheGates" x="500" y="150" name="inst_EC6F7A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="capacitorObject" x="210" y="550" name="inst_FD645492" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="capacitorObject" x="790" y="550" name="inst_3098E3F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="capacitorObject" x="210" y="550" name="inst_32CE333C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="capacitorObject" x="210" y="210" name="inst_359E75B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="capacitorObject" x="790" y="210" name="inst_4AEECE83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
