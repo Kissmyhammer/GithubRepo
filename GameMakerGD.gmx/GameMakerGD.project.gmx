@@ -20,6 +20,7 @@
         <sprite>sprites\bulletSprite</sprite>
         <sprite>sprites\bullutExplosionSprite</sprite>
         <sprite>sprites\PlayerBall</sprite>
+        <sprite>sprites\playerSprite</sprite>
       </sprites>
       <sprites name="Walls">
         <sprite>sprites\wallHori</sprite>
