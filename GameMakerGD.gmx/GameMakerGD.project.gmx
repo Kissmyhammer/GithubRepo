@@ -21,11 +21,15 @@
         <sprite>sprites\sprite19</sprite>
         <sprite>sprites\sprite18</sprite>
         <sprite>sprites\playerSprite</sprite>
+        <sprite>sprites\bulletSpriteV2</sprite>
       </sprites>
       <sprites name="Walls">
         <sprite>sprites\wallHori</sprite>
         <sprite>sprites\wallVerti</sprite>
         <sprite>sprites\wallCorner</sprite>
+      </sprites>
+      <sprites name="WorldObjets">
+        <sprite>sprites\capacitor</sprite>
       </sprites>
     </sprites>
     <sprites name="UIGroup">
@@ -91,6 +95,9 @@
     <objects name="Bars">
       <object>objects\chargeBarBackgroundObj</object>
       <object>objects\chargeBarForegroundObj</object>
+    </objects>
+    <objects name="WorldObjects">
+      <object>objects\capacitorObject</object>
     </objects>
   </objects>
   <rooms name="rooms">
