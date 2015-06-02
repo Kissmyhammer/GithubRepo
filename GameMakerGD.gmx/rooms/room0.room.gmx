@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="Player1" x="480" y="600" name="inst_A3F02D81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object8" x="494" y="384" name="inst_095BE3A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyShield" x="494" y="384" name="inst_095BE3A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySpawner" x="500" y="392" name="inst_88D189E3" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="WallBend" x="20" y="20" name="inst_6C6FC805" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallBend" x="20" y="740" name="inst_5D050951" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>

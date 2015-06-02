@@ -27,6 +27,9 @@
             <kind>1</kind>
             <string>image_speed = 0;
 alarm[4]=15;
+bonusCounter = 0;
+requiredForBonus = 5;
+enemyType = 1;
 
 </string>
           </argument>
@@ -51,12 +54,42 @@ alarm[4]=15;
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.5;
-xpos = x + lengthdir_x(70, -phy_rotation +90); // or direction
+xpos = x + lengthdir_x(70, -phy_rotation +90);
 ypos = y + lengthdir_y(70, -phy_rotation +90);
-
-with (instance_create(xpos,ypos,enemy)){
-    phy_rotation=other.phy_rotation;
-    physics_apply_local_impulse(0, 0, 0, -75);
+if(bonusCounter != requiredForBonus){    
+    switch (enemyType)
+    {   case 1:
+            with (instance_create(xpos,ypos,enemy1)){
+                phy_rotation=other.phy_rotation;
+                physics_apply_local_impulse(0, 0, 0, -75);
+            }
+            break;
+        case 2:
+            with (instance_create(xpos,ypos,enemy2)){
+                phy_rotation=other.phy_rotation;
+                physics_apply_local_impulse(0, 0, 0, -75);
+            }
+            break;
+        case 3:
+            with (instance_create(xpos,ypos,enemy3)){
+                phy_rotation=other.phy_rotation;
+                physics_apply_local_impulse(0, 0, 0, -75);
+            }
+            break;
+        case 4: 
+            with (instance_create(xpos,ypos,enemy4)){
+                phy_rotation=other.phy_rotation;
+                physics_apply_local_impulse(0, 0, 0, -75);
+            }
+            break;
+    }
+} else {
+    with (instance_create(xpos,ypos,powerUpEnemy)){
+            phy_rotation=other.phy_rotation;
+            physics_apply_local_impulse(0, 0, 0, -50);
+    }
+    bonusCounter = 0;
+    requiredForBonus = irandom(5) + 5;
 }
 alarm[4]=random(45)+60;
 
@@ -88,6 +121,10 @@ if(image_index == 2){
     image_speed = 0;
     image_index = 0;    
 }
+if(bonusCounter &gt; requiredForBonus){
+    bonusCounter = requiredForBonus;
+}
+
 </string>
           </argument>
         </arguments>

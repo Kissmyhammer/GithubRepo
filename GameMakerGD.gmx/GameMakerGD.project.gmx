@@ -12,6 +12,7 @@
         <sprite>sprites\CannonSprite</sprite>
         <sprite>sprites\enemySprite</sprite>
         <sprite>sprites\sprite17</sprite>
+        <sprite>sprites\sprite25</sprite>
         <sprite>sprites\sprite20</sprite>
         <sprite>sprites\sprite19</sprite>
         <sprite>sprites\sprite18</sprite>
@@ -86,8 +87,13 @@
     </objects>
     <objects name="EnemyObjects">
       <object>objects\enemySpawner</object>
-      <object>objects\object8</object>
+      <object>objects\enemyShield</object>
       <object>objects\enemy</object>
+      <object>objects\enemy1</object>
+      <object>objects\enemy2</object>
+      <object>objects\enemy3</object>
+      <object>objects\enemy4</object>
+      <object>objects\powerUpEnemy</object>
     </objects>
     <objects name="Buttons">
       <object>objects\stunButton</object>

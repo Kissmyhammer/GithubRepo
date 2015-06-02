@@ -183,7 +183,7 @@ trail_scatter(trail,xscatter,yscatter);
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="object8">
+    <event eventtype="4" ename="enemyShield">
       <action>
         <libid>1</libid>
         <id>605</id>
