@@ -39,6 +39,10 @@
         <sprite>sprites\jamSprite</sprite>
         <sprite>sprites\slowmoSprite</sprite>
         <sprite>sprites\stunSprite</sprite>
+        <sprite>sprites\buttonBase</sprite>
+        <sprite>sprites\buttonOrangeBall</sprite>
+        <sprite>sprites\buttonBlueBall</sprite>
+        <sprite>sprites\buttonLightblueBall</sprite>
       </sprites>
       <sprites name="Bars">
         <sprite>sprites\ballBar</sprite>
@@ -99,6 +103,11 @@
       <object>objects\stunButton</object>
       <object>objects\jamButton</object>
       <object>objects\spawnBallButton</object>
+      <object>objects\orangeBallToggle</object>
+      <object>objects\lightblueBallToggle</object>
+      <object>objects\redBallToggle</object>
+      <object>objects\blueBallToggle</object>
+      <object>objects\radioParent</object>
     </objects>
     <objects name="Bars">
       <object>objects\chargeBarBackgroundObj</object>

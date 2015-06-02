@@ -150,6 +150,10 @@
     <instance objName="capacitorObject" x="210" y="550" name="inst_32CE333C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="210" y="210" name="inst_359E75B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="790" y="210" name="inst_4AEECE83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="orangeBallToggle" x="1300" y="430" name="inst_E891FB06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="blueBallToggle" x="1160" y="430" name="inst_87A12FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightblueBallToggle" x="1090" y="430" name="inst_09583FB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="redBallToggle" x="1230" y="430" name="inst_39458885" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
