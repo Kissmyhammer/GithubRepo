@@ -36,6 +36,9 @@
       <sprites name="WorldObjets">
         <sprite>sprites\capacitor</sprite>
       </sprites>
+      <sprites name="Powerups">
+        <sprite>sprites\shieldPowerup</sprite>
+      </sprites>
     </sprites>
     <sprites name="UIGroup">
       <sprites name="Buttons">
@@ -46,6 +49,7 @@
         <sprite>sprites\buttonOrangeBall</sprite>
         <sprite>sprites\buttonBlueBall</sprite>
         <sprite>sprites\buttonLightblueBall</sprite>
+        <sprite>sprites\buttonRedBall</sprite>
       </sprites>
       <sprites name="Bars">
         <sprite>sprites\ballBar</sprite>
@@ -119,6 +123,9 @@
     </objects>
     <objects name="WorldObjects">
       <object>objects\capacitorObject</object>
+    </objects>
+    <objects name="Powerups">
+      <object>objects\shield</object>
     </objects>
   </objects>
   <rooms name="rooms">
