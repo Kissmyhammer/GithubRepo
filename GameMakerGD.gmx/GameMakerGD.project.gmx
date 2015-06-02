@@ -16,6 +16,9 @@
         <sprite>sprites\sprite20</sprite>
         <sprite>sprites\sprite19</sprite>
         <sprite>sprites\sprite18</sprite>
+        <sprites name="Boss">
+          <sprite>sprites\sprite31</sprite>
+        </sprites>
       </sprites>
       <sprites name="PlayerSprites">
         <sprite>sprites\bulletSprite</sprite>
@@ -98,6 +101,7 @@
       <object>objects\enemy3</object>
       <object>objects\enemy4</object>
       <object>objects\powerUpEnemy</object>
+      <object>objects\bossObject</object>
     </objects>
     <objects name="Buttons">
       <object>objects\stunButton</object>
