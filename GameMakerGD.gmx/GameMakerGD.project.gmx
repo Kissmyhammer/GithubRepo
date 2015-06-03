@@ -38,6 +38,7 @@
       </sprites>
       <sprites name="Powerups">
         <sprite>sprites\shieldPowerup</sprite>
+        <sprite>sprites\rapidFirePowerup</sprite>
       </sprites>
     </sprites>
     <sprites name="UIGroup">
@@ -132,6 +133,7 @@
     </objects>
     <objects name="Powerups">
       <object>objects\shield</object>
+      <object>objects\rapidFire</object>
     </objects>
     <objects name="Start/EndGroup">
       <object>objects\StartBtnObject</object>
