@@ -49,6 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>Player1.image_index = 1;
+instance_destroy();
 </string>
           </argument>
         </arguments>
