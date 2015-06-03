@@ -29,13 +29,13 @@
 if(powerupType == 0){
     instance_create(x,y,shield)
 }else if(powerupType == 1){
-    instance_create(x,y,shield);
+    instance_create(x,y,rapidFire);
     }else if(powerupType == 2){
-    instance_create(x,y,rapidFire);
+    instance_create(x,y,dualBullets);
     }else if(powerupType == 3){
-    instance_create(x,y,rapidFire);
+    instance_create(x,y,energyBeam);
     }else if(powerupType == 4){
-    instance_create(x,y,rapidFire);
+    instance_create(x,y,extraLife);
     }
 </string>
           </argument>

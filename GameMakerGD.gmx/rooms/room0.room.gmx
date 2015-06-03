@@ -154,8 +154,11 @@
     <instance objName="blueBallToggle" x="1160" y="430" name="inst_87A12FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightblueBallToggle" x="1090" y="430" name="inst_09583FB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redBallToggle" x="1230" y="432" name="inst_39458885" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="shield" x="240" y="350" name="inst_0C00EF6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="rapidFire" x="710" y="410" name="inst_1D6726BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shield" x="560" y="610" name="inst_0C00EF6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="rapidFire" x="380" y="590" name="inst_1D6726BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="dualBullets" x="460" y="510" name="inst_F811DD20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="energyBeam" x="290" y="390" name="inst_3B8CB4C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="extraLife" x="290" y="450" name="inst_34ED0CB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

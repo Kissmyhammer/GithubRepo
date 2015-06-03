@@ -21,5 +21,34 @@
   <height>46</height>
   <frames>
     <frame index="0">images\rapidFirePowerup_0.png</frame>
+    <frame index="1">images\rapidFirePowerup_1.png</frame>
+    <frame index="2">images\rapidFirePowerup_2.png</frame>
+    <frame index="3">images\rapidFirePowerup_3.png</frame>
+    <frame index="4">images\rapidFirePowerup_4.png</frame>
+    <frame index="5">images\rapidFirePowerup_5.png</frame>
+    <frame index="6">images\rapidFirePowerup_6.png</frame>
+    <frame index="7">images\rapidFirePowerup_7.png</frame>
+    <frame index="8">images\rapidFirePowerup_8.png</frame>
+    <frame index="9">images\rapidFirePowerup_9.png</frame>
+    <frame index="10">images\rapidFirePowerup_10.png</frame>
+    <frame index="11">images\rapidFirePowerup_11.png</frame>
+    <frame index="12">images\rapidFirePowerup_12.png</frame>
+    <frame index="13">images\rapidFirePowerup_13.png</frame>
+    <frame index="14">images\rapidFirePowerup_14.png</frame>
+    <frame index="15">images\rapidFirePowerup_15.png</frame>
+    <frame index="16">images\rapidFirePowerup_16.png</frame>
+    <frame index="17">images\rapidFirePowerup_17.png</frame>
+    <frame index="18">images\rapidFirePowerup_18.png</frame>
+    <frame index="19">images\rapidFirePowerup_19.png</frame>
+    <frame index="20">images\rapidFirePowerup_20.png</frame>
+    <frame index="21">images\rapidFirePowerup_21.png</frame>
+    <frame index="22">images\rapidFirePowerup_22.png</frame>
+    <frame index="23">images\rapidFirePowerup_23.png</frame>
+    <frame index="24">images\rapidFirePowerup_24.png</frame>
+    <frame index="25">images\rapidFirePowerup_25.png</frame>
+    <frame index="26">images\rapidFirePowerup_26.png</frame>
+    <frame index="27">images\rapidFirePowerup_27.png</frame>
+    <frame index="28">images\rapidFirePowerup_28.png</frame>
+    <frame index="29">images\rapidFirePowerup_29.png</frame>
   </frames>
 </sprite>
