@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="bossObject">
+    <event eventtype="4" ename="capacitorObject">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -52,7 +52,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="capacitorObject">
+    <event eventtype="4" ename="bossObject">
       <action>
         <libid>1</libid>
         <id>203</id>
