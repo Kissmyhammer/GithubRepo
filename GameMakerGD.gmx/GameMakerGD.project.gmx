@@ -61,6 +61,12 @@
         <sprite>sprites\pulseSprite</sprite>
       </sprites>
     </sprites>
+    <sprites name="Start/EndGroup">
+      <sprite>sprites\startBtn</sprite>
+      <sprite>sprites\emptyBtn</sprite>
+      <sprite>sprites\restartGameBtn</sprite>
+      <sprite>sprites\endGameBtn</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\UIBG</background>
@@ -127,9 +133,16 @@
     <objects name="Powerups">
       <object>objects\shield</object>
     </objects>
+    <objects name="Start/EndGroup">
+      <object>objects\StartBtnObject</object>
+      <object>objects\EndBtnObject</object>
+      <object>objects\RestartBtnObject</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\start_room</room>
+    <room>rooms\gamePlay_room</room>
+    <room>rooms\gameEnd_room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
