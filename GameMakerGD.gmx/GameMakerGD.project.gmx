@@ -20,6 +20,9 @@
           <sprite>sprites\bossSprite</sprite>
           <sprite>sprites\bossShotSprite</sprite>
         </sprites>
+        <sprite>sprites\gateSpawnerSprite</sprite>
+        <sprite>sprites\gateSprite</sprite>
+        <sprite>sprites\shieldAnimatedSprite</sprite>
       </sprites>
       <sprites name="PlayerSprites">
         <sprite>sprites\bulletSprite</sprite>
@@ -114,6 +117,8 @@
       <object>objects\ballSpawnerCharge</object>
       <object>objects\mothershipExplosion</object>
       <object>objects\cannonMuzzle</object>
+      <object>objects\gateSpawnerSmoke</object>
+      <object>objects\shieldExplosion</object>
     </objects>
     <objects name="EnemyObjects">
       <object>objects\enemySpawner</object>
