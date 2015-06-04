@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0;
+notDead = true;
 largeActive = false;
 fireRate = 10;
 rapidFireActive = false;
@@ -50,6 +51,28 @@ xdrift = 0;
 ydrift = 0;    
 trail = trail_create(length,x,y);
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="6">
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>gameEnd_room</room>
           </argument>
         </arguments>
       </action>
@@ -210,8 +233,11 @@ trail = trail_create(length,x,y);
 trail_drift(trail,xdrift,ydrift);
 trail_scatter(trail,xscatter,yscatter);
 
-if(playerHp &lt; 1){
-    room_goto(gameEnd_room);
+if(playerHp &lt; 1 &amp;&amp; notDead){
+    visible = false;
+    notDead = false;
+    instance_create(x,y, gateSpawnerSmoke);
+    alarm[6] = 16;
 }
 </string>
           </argument>
