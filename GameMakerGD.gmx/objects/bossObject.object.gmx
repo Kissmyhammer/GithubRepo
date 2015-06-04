@@ -104,6 +104,7 @@ phy_rotation+=1;
             <kind>1</kind>
             <string>hp -= 1;
 if(hp = 0){
+    instance_create(x,y,mothershipExplosion);
     instance_destroy();
     if(!instance_exists(bossObject)){
         ballSpawnerCharge.charges +=5;

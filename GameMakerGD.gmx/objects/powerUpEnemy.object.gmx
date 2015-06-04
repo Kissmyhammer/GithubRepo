@@ -33,7 +33,7 @@ if(powerupType == 0){
     }else if(powerupType == 2){
     instance_create(x,y,dualBullets);
     }else if(powerupType == 3){
-    instance_create(x,y,energyBeam);
+    instance_create(x,y,largeBullet);
     }else if(powerupType == 4){
     instance_create(x,y,extraLife);
     }

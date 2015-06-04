@@ -48,7 +48,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Player1.playerHp += 1;
+            <string>if(Player1.playerHp != 3){
+Player1.playerHp += 1;
+}
 instance_destroy();
 </string>
           </argument>

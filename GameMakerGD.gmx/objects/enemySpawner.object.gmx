@@ -61,25 +61,25 @@ if(bonusCounter != requiredForBonus){
     {   case 1:
             with (instance_create(xpos,ypos,enemy1)){
                 phy_rotation=other.phy_rotation;
-                physics_apply_local_impulse(0, 0, 0, -75);
+                physics_apply_local_impulse(0, 0, 0, -100);
             }
             break;
         case 2:
             with (instance_create(xpos,ypos,enemy2)){
                 phy_rotation=other.phy_rotation;
-                physics_apply_local_impulse(0, 0, 0, -75);
+                physics_apply_local_impulse(0, 0, 0, -250);
             }
             break;
         case 3:
             with (instance_create(xpos,ypos,enemy3)){
                 phy_rotation=other.phy_rotation;
-                physics_apply_local_impulse(0, 0, 0, -75);
+                physics_apply_local_impulse(0, 0, 0, -50);
             }
             break;
         case 4: 
             with (instance_create(xpos,ypos,enemy4)){
                 phy_rotation=other.phy_rotation;
-                physics_apply_local_impulse(0, 0, 0, -75);
+                physics_apply_local_impulse(0, 0, 0, -50);
             }
             break;
     }
