@@ -27,6 +27,8 @@
         <sprite>sprites\PlayerBall</sprite>
         <sprite>sprites\playerSprite</sprite>
         <sprite>sprites\bulletSpriteV2</sprite>
+        <sprite>sprites\motherExplosion</sprite>
+        <sprite>sprites\explosion</sprite>
       </sprites>
       <sprites name="Walls">
         <sprite>sprites\wallHori</sprite>
@@ -41,7 +43,7 @@
         <sprite>sprites\shieldPowerup</sprite>
         <sprite>sprites\rapidFirePowerup</sprite>
         <sprite>sprites\dualBulletsPowerup</sprite>
-        <sprite>sprites\energyBeamPowerup</sprite>
+        <sprite>sprites\LargeBulletPowerup</sprite>
         <sprite>sprites\extraLifePowerup</sprite>
       </sprites>
     </sprites>
@@ -106,6 +108,7 @@
       <object>objects\cooldownObject</object>
       <object>objects\pulse</object>
       <object>objects\ballSpawnerCharge</object>
+      <object>objects\mothershipExplosion</object>
     </objects>
     <objects name="EnemyObjects">
       <object>objects\enemySpawner</object>
@@ -140,7 +143,7 @@
       <object>objects\shield</object>
       <object>objects\rapidFire</object>
       <object>objects\dualBullets</object>
-      <object>objects\energyBeam</object>
+      <object>objects\largeBullet</object>
       <object>objects\powerup</object>
       <object>objects\extraLife</object>
     </objects>
