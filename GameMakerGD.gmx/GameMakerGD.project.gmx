@@ -29,6 +29,7 @@
         <sprite>sprites\bulletSpriteV2</sprite>
         <sprite>sprites\motherExplosion</sprite>
         <sprite>sprites\explosion</sprite>
+        <sprite>sprites\cannonMuzzleFlash</sprite>
       </sprites>
       <sprites name="Walls">
         <sprite>sprites\wallHori</sprite>
@@ -57,6 +58,9 @@
         <sprite>sprites\buttonBlueBall</sprite>
         <sprite>sprites\buttonLightblueBall</sprite>
         <sprite>sprites\buttonRedBall</sprite>
+        <sprite>sprites\bulletJamSprite</sprite>
+        <sprite>sprites\playerStunSprite</sprite>
+        <sprite>sprites\releaseBossButton</sprite>
       </sprites>
       <sprites name="Bars">
         <sprite>sprites\ballBar</sprite>
@@ -109,6 +113,7 @@
       <object>objects\pulse</object>
       <object>objects\ballSpawnerCharge</object>
       <object>objects\mothershipExplosion</object>
+      <object>objects\cannonMuzzle</object>
     </objects>
     <objects name="EnemyObjects">
       <object>objects\enemySpawner</object>

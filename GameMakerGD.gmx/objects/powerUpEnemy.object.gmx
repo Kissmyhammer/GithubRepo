@@ -26,17 +26,23 @@
           <argument>
             <kind>1</kind>
             <string>powerupType = irandom(4);
-if(powerupType == 0){
-    instance_create(x,y,shield)
-}else if(powerupType == 1){
-    instance_create(x,y,rapidFire);
-    }else if(powerupType == 2){
-    instance_create(x,y,dualBullets);
-    }else if(powerupType == 3){
-    instance_create(x,y,largeBullet);
-    }else if(powerupType == 4){
-    instance_create(x,y,extraLife);
-    }
+switch(poweruptype){
+    case 0:
+        instance_create(x,y,shield);
+        break;
+    case 1:
+        instance_create(x,y,rapidFire);
+        break;
+    case 2:
+        instance_create(x,y,dualBullets);
+        break;
+    case 3:
+        instance_create(x,y,largeBullet);
+        break;
+    case 4:
+        instance_create(x,y,extraLife);
+        break;
+}
 </string>
           </argument>
         </arguments>
