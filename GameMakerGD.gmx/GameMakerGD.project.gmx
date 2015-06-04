@@ -143,9 +143,9 @@
       <object>objects\shield</object>
       <object>objects\rapidFire</object>
       <object>objects\dualBullets</object>
-      <object>objects\largeBullet</object>
       <object>objects\powerup</object>
       <object>objects\extraLife</object>
+      <object>objects\largeBullet</object>
     </objects>
     <objects name="Start/EndGroup">
       <object>objects\StartBtnObject</object>
