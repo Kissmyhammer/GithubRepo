@@ -93,6 +93,27 @@ trail = trail_create(length,x,y);
     <event eventtype="2" enumb="6">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.winner = "Player 2";
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>224</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -784,7 +805,7 @@ playerHp -= 1;
 draw_sprite_ext(sprite_index,-1,x,y,1,1,-phy_rotation,c_white,1);
 var currentHp;
 currentHp = (playerHp / max_hp) * 100;
-draw_healthbar(110, 10, 300, 35, currentHp, c_black, c_red, c_green, 0, true, true)
+draw_healthbar(110, 15, 300, 35, currentHp, c_dkgray, c_red, c_green, 0, true, true)
 draw_set_font(timer_font);
 draw_set_color(c_aqua);
 draw_text(10, 10, "Health:");

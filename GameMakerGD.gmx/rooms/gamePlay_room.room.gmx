@@ -56,7 +56,6 @@ for (var i = 0; i &lt; instance_number(capacitorObject); i += 1){
   </views>
   <instances>
     <instance objName="Player1" x="500" y="620" name="inst_A3F02D81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyShield" x="494" y="404" name="inst_095BE3A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySpawner" x="500" y="412" name="inst_88D189E3" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="WallBend" x="20" y="60" name="inst_6C6FC805" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallBend" x="20" y="740" name="inst_5D050951" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
@@ -151,11 +150,6 @@ for (var i = 0; i &lt; instance_number(capacitorObject); i += 1){
     <instance objName="blueBallToggle" x="1090" y="495" name="inst_87A12FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightblueBallToggle" x="1090" y="430" name="inst_09583FB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redBallToggle" x="1092" y="563" name="inst_39458885" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="shield" x="400" y="660" name="inst_0C00EF6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="extraLife" x="380" y="570" name="inst_BEF1288E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="rapidFire" x="450" y="520" name="inst_37A244E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="dualBullets" x="570" y="630" name="inst_43F657FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="largeBullet" x="590" y="550" name="inst_40BFB3D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="210" y="240" name="inst_4F043F70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="210" y="550" name="inst_37450B59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="790" y="240" name="inst_34CA0C99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

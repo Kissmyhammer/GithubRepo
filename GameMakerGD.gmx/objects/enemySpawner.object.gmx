@@ -31,6 +31,9 @@ alarm[4]=15;
 bonusCounter = 0;
 requiredForBonus = 5;
 enemyType = 1;
+cannon_hp = 30;
+cannon_max_hp = 30;
+instance_create(x,y, enemyShield);
 
 </string>
           </argument>
@@ -38,6 +41,27 @@ enemyType = 1;
       </action>
     </event>
     <event eventtype="2" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.winner = "Player 1";
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>224</id>
@@ -141,6 +165,33 @@ alarm[4]=random(45)+60;
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>timeline_index=timeline_capacitator;
+timeline_position=0;
+timeline_running = true;
+timeline_loop = true;
+instance_create(x,y, enemyShield);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -168,6 +219,79 @@ if(bonusCounter &gt; requiredForBonus){
     bonusCounter = requiredForBonus;
 }
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="bullet">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>cannon_hp -= 1;
+if(cannon_hp &lt; 1 &amp;&amp; alive){
+    alarm[5] = 30;
+    instance_create(x,y, cannonExplosion);
+    audio_play_sound(bossExplosion, 10, false);
+    visible = false;
+    alive = false;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>var cannon_currentHp;
+cannon_currentHp = (cannon_hp / cannon_max_hp) * 100;
+draw_healthbar(780, 15, 980, 35, cannon_currentHp, c_dkgray, c_red, c_maroon, 0, true, true)
+draw_set_font(timer_font);
+draw_set_color(c_aqua);
+draw_text(660, 10, "Cannon:");
+draw_sprite_ext(sprite_index,-1,x,y,1,1,-phy_rotation,c_white,1);
 </string>
           </argument>
         </arguments>

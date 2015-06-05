@@ -124,6 +124,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\timer_font</font>
+    <font>fonts\score_font</font>
   </fonts>
   <objects name="objects">
     <objects name="Player1">
@@ -191,6 +192,7 @@
       <object>objects\StartBtnObject</object>
       <object>objects\EndBtnObject</object>
       <object>objects\RestartBtnObject</object>
+      <object>objects\obj_end_screen</object>
     </objects>
   </objects>
   <timelines name="timelines">
