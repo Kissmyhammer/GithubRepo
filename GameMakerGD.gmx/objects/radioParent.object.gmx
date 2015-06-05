@@ -77,12 +77,14 @@ var enemyType;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>orangeBallToggle.isToggled = false;
-lightblueBallToggle.isToggled = false;
-redBallToggle.isToggled = false;
-blueBallToggle.isToggled = false;
-isToggled = true;
-enemySpawner.enemyType = enemyType;
+            <string>if(global.players == 2){
+    orangeBallToggle.isToggled = false;
+    lightblueBallToggle.isToggled = false;
+    redBallToggle.isToggled = false;
+    blueBallToggle.isToggled = false;
+    isToggled = true;
+    enemySpawner.enemyType = enemyType;
+}
 
 </string>
           </argument>

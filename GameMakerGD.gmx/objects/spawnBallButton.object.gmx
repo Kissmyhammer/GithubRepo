@@ -56,6 +56,16 @@ counter = true;
 }else if(!ballSpawnerCharge.charged){
     image_index = 1;
 }
+if(global.players == 1){
+    if (ballSpawnerCharge.charged){ 
+        audio_play_sound(bossSpawn, 10, false);
+        ballSpawnerCharge.charging = true;
+        ballSpawnerCharge.charged = false;
+        ballSpawnerCharge.charges = 0; 
+        openTheGates.speedVar = 0.5;  
+        with(ballSpawnerCharge.glowing){instance_destroy();}
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -78,7 +88,7 @@ counter = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (ballSpawnerCharge.charged){ 
+            <string>if (ballSpawnerCharge.charged &amp;&amp; global.players == 2){ 
     audio_play_sound(bossSpawn, 10, false);
     ballSpawnerCharge.charging = true;
     ballSpawnerCharge.charged = false;

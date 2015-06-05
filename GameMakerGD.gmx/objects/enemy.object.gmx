@@ -167,7 +167,9 @@ if(hp &lt; 1){
     if(instance_exists(enemySpawner)){
         enemySpawner.bonusCounter += 1;
     }
-    ballSpawnerCharge.charges +=10;
+    if(!instance_exists(bossObject)){
+    ballSpawnerCharge.charges += givesCharges;
+    }
     instance_destroy();
 }
 </string>

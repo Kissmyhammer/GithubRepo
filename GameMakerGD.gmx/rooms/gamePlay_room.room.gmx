@@ -10,7 +10,10 @@
   <persistent>0</persistent>
   <colour>1511938</colour>
   <showcolour>-1</showcolour>
-  <code>audio_pause_sound(menuMusic);
+  <code>if(global.players == 1){
+    instance_create(1000,0, one_player_overlay);
+}
+audio_pause_sound(menuMusic);
 instance_create(x,y,obj_countup_controller);
 for (var i = 0; i &lt; instance_number(capacitorObject); i += 1){
    global.capacitors[i] = instance_find(capacitorObject,i);

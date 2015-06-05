@@ -94,12 +94,15 @@
         <sprite>sprites\cooldownOverlay</sprite>
         <sprite>sprites\pulseSprite</sprite>
       </sprites>
+      <sprite>sprites\one_spirte_overlay</sprite>
     </sprites>
     <sprites name="Start/EndGroup">
       <sprite>sprites\startBtn</sprite>
       <sprite>sprites\emptyBtn</sprite>
       <sprite>sprites\restartGameBtn</sprite>
       <sprite>sprites\endGameBtn</sprite>
+      <sprite>sprites\onePlayer</sprite>
+      <sprite>sprites\twoPlayer</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -171,6 +174,7 @@
       <object>objects\redBallToggle</object>
       <object>objects\blueBallToggle</object>
       <object>objects\radioParent</object>
+      <object>objects\one_player_overlay</object>
     </objects>
     <objects name="Bars">
       <object>objects\chargeBarBackgroundObj</object>
@@ -193,6 +197,10 @@
       <object>objects\EndBtnObject</object>
       <object>objects\RestartBtnObject</object>
       <object>objects\obj_end_screen</object>
+      <object>objects\onePlayerBtn</object>
+      <object>objects\onePlayerBtnEnd</object>
+      <object>objects\twoPlayerBtn</object>
+      <object>objects\twoPlayerBtnEnd</object>
     </objects>
   </objects>
   <timelines name="timelines">

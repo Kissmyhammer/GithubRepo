@@ -76,7 +76,7 @@ if(global.winner == "Player 1"){
             <kind>1</kind>
             <string>draw_set_font(score_font);
 draw_set_color(c_maroon);
-draw_text(260, 300, string(score_string));
+draw_text(260, 200, string(score_string));
 </string>
           </argument>
         </arguments>

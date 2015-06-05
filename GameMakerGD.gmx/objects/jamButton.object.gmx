@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>cooldown = false;
 active = false;
-cooldownTime = 10;
+cooldownTime = 15;
 jamDuration = 3;
 
 </string>
@@ -101,7 +101,7 @@ cooldown = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!cooldown){
+            <string>if (!cooldown &amp;&amp; global.players = 2){
     alarm[0] =(room_speed*cooldownTime);
     cdJam = instance_create(x, y, cooldownObject);
     cdJam.image_speed = 2/cooldownTime;

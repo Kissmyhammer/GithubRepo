@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>hp = 2;
+givesCharges = 10;
 </string>
           </argument>
         </arguments>
