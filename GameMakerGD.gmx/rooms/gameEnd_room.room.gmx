@@ -52,7 +52,7 @@ audio_pause_sound(bossHover);</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="EndBtnObject" x="700" y="680" name="inst_51685E30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EndBtnObject" x="690" y="680" name="inst_51685E30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="RestartBtnObject" x="700" y="410" name="inst_048DC004" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_end_screen" x="150" y="140" name="inst_8763580B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="onePlayerBtnEnd" x="580" y="540" name="inst_B701DD35" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
