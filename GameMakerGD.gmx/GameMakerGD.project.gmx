@@ -4,7 +4,25 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sounds name="PlayerGroup">
+      <sound>sound\rocketShot</sound>
+      <sound>sound\rocketExplosion</sound>
+      <sound>sound\death</sound>
+      <sound>sound\collision</sound>
+    </sounds>
+    <sounds name="EnemyGroup">
+      <sound>sound\bossSpawn</sound>
+      <sound>sound\bossHover</sound>
+      <sound>sound\bossExplosion</sound>
+      <sound>sound\enemyDeath</sound>
+      <sound>sound\bossShotHit</sound>
+    </sounds>
+    <sounds name="Other">
+      <sound>sound\backgroundMusic</sound>
+      <sound>sound\menuMusic</sound>
+    </sounds>
+  </sounds>
   <sprites name="sprites">
     <sprites name="LevelGroup">
       <sprites name="EnemySprites">
@@ -23,6 +41,8 @@
         <sprite>sprites\gateSpawnerSprite</sprite>
         <sprite>sprites\gateSprite</sprite>
         <sprite>sprites\shieldAnimatedSprite</sprite>
+        <sprite>sprites\canonExplosion</sprite>
+        <sprite>sprites\enemyExplosion</sprite>
       </sprites>
       <sprites name="PlayerSprites">
         <sprite>sprites\bulletSprite</sprite>
@@ -84,6 +104,8 @@
   </sprites>
   <backgrounds name="background">
     <background>background\UIBG</background>
+    <background>background\startBG</background>
+    <background>background\endBG</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -119,6 +141,7 @@
       <object>objects\cannonMuzzle</object>
       <object>objects\gateSpawnerSmoke</object>
       <object>objects\shieldExplosion</object>
+      <object>objects\cannonExplosion</object>
     </objects>
     <objects name="EnemyObjects">
       <object>objects\enemySpawner</object>

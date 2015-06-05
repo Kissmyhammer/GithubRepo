@@ -3,14 +3,14 @@
   <caption></caption>
   <width>1400</width>
   <height>760</height>
-  <vsnap>10</vsnap>
-  <hsnap>10</hsnap>
+  <vsnap>5</vsnap>
+  <hsnap>5</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
   <colour>1511938</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>audio_pause_sound(menuMusic);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -139,21 +139,21 @@
     <instance objName="WallVertical" x="980" y="100" name="inst_1F1643CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallVertical" x="980" y="60" name="inst_48C72710" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawnBallButton" x="1310" y="300" name="inst_5E91F6A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stunButton" x="1120" y="200" name="inst_9FA71F0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stunButton" x="1150" y="210" name="inst_9FA71F0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="chargeBarBackgroundObj" x="1170" y="300" name="inst_F8A8E7B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="chargeBarForegroundObj" x="1170" y="300" name="inst_1E2EDED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ballSpawnerCharge" x="1170" y="300" name="inst_14253EE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="jamButton" x="1210" y="200" name="inst_9E312E6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="jamButton" x="1240" y="210" name="inst_9E312E6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="openTheGates" x="500" y="150" name="inst_EC6F7A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="210" y="550" name="inst_FD645492" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="790" y="550" name="inst_3098E3F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="210" y="550" name="inst_32CE333C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="210" y="210" name="inst_359E75B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="capacitorObject" x="790" y="210" name="inst_4AEECE83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="orangeBallToggle" x="1300" y="430" name="inst_E891FB06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="blueBallToggle" x="1160" y="430" name="inst_87A12FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lightblueBallToggle" x="1090" y="430" name="inst_09583FB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="redBallToggle" x="1230" y="432" name="inst_39458885" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="orangeBallToggle" x="1086" y="625" name="inst_E891FB06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="blueBallToggle" x="1085" y="495" name="inst_87A12FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightblueBallToggle" x="1085" y="430" name="inst_09583FB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="redBallToggle" x="1088" y="562" name="inst_39458885" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="shield" x="460" y="650" name="inst_0C00EF6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="extraLife" x="370" y="590" name="inst_BEF1288E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rapidFire" x="460" y="510" name="inst_37A244E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

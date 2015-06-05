@@ -78,8 +78,8 @@ counter = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if (ballSpawnerCharge.charged){
+            <string>if (ballSpawnerCharge.charged){ 
+    audio_play_sound(bossSpawn, 10, false);
     ballSpawnerCharge.charging = true;
     ballSpawnerCharge.charged = false;
     ballSpawnerCharge.charges = 0; 
