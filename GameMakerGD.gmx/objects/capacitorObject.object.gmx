@@ -105,12 +105,11 @@ if(active){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(active){   
+            <string>if(active){
     capLineX2 = enemySpawner.x;
     capLineY2 = enemySpawner.y;
     beamActive = true;
 }
-
 </string>
           </argument>
         </arguments>

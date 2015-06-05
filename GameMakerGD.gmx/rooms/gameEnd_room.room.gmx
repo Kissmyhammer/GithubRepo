@@ -10,7 +10,8 @@
   <persistent>0</persistent>
   <colour>1511938</colour>
   <showcolour>-1</showcolour>
-  <code>audio_play_sound(menuMusic, 10, true);</code>
+  <code>audio_play_sound(menuMusic, 10, true);
+audio_pause_sound(bossHover);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

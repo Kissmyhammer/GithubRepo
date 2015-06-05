@@ -127,8 +127,8 @@
   </fonts>
   <objects name="objects">
     <objects name="Player1">
-      <object>objects\bullet</object>
       <object>objects\Player1</object>
+      <object>objects\bullet</object>
     </objects>
     <objects name="Walls">
       <object>objects\WallBend</object>
