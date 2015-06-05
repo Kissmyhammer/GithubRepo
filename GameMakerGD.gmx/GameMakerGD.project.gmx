@@ -109,6 +109,8 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\activateCapacitor.gml</script>
+    <script>scripts\deactivateCapacitor.gml</script>
     <script>scripts\movement.gml</script>
     <script>scripts\phy_wrap.gml</script>
     <scripts name="Trail">
@@ -118,7 +120,11 @@
       <script>scripts\trail_drift.gml</script>
       <script>scripts\draw_trail.gml</script>
     </scripts>
+    <script>scripts\checkBeams.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\timer_font</font>
+  </fonts>
   <objects name="objects">
     <objects name="Player1">
       <object>objects\bullet</object>
@@ -171,6 +177,7 @@
     </objects>
     <objects name="WorldObjects">
       <object>objects\capacitorObject</object>
+      <object>objects\obj_countup_controller</object>
     </objects>
     <objects name="Powerups">
       <object>objects\shield</object>
@@ -186,6 +193,9 @@
       <object>objects\RestartBtnObject</object>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline_capacitator</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\start_room</room>
     <room>rooms\gamePlay_room</room>
