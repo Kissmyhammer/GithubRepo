@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
+            <string>timeline_index=timeline_capacitator;
+timeline_position=0;
+timeline_running = true;
+timeline_loop = true;
+
+image_speed = 0;
 notDead = true;
 largeActive = false;
 fireRate = 10;
@@ -36,7 +41,8 @@ jam = false;
 canfire= true;
 speed_var = 1;
 phy_fixed_rotation=true; 
-playerHp = 3;
+playerHp = 5;
+max_hp = 5;
 
 length = 12;
 w1 = 30;
@@ -50,6 +56,11 @@ yscatter = 10;
 xdrift = 0;
 ydrift = 0;    
 trail = trail_create(length,x,y);
+
+
+
+
+
 </string>
           </argument>
         </arguments>
@@ -373,20 +384,6 @@ playerHp -= 1;
       </action>
       <action>
         <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>other</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>201</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -582,7 +579,12 @@ playerHp -= 1;
             <kind>1</kind>
             <string>draw_trail(trail,w1,w2,c1,c2,a1,a2);
 draw_sprite_ext(sprite_index,-1,x,y,1,1,-phy_rotation,c_white,1);
-
+var currentHp;
+currentHp = (playerHp / max_hp) * 100;
+draw_healthbar(110, 10, 300, 35, currentHp, c_black, c_red, c_green, 0, true, true)
+draw_set_font(timer_font);
+draw_set_color(c_aqua);
+draw_text(10, 10, "Health:");
 
 
 

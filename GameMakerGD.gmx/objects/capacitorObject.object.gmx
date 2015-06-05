@@ -3,7 +3,7 @@
   <spriteName>capacitor</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>length = 12;
+            <string>active = false;
+beamActive = false;
+length = 12;
 w1 = 70;
 w2 = 15;
 c1 = make_color_rgb(151,172,243);
@@ -36,26 +38,11 @@ xscatter = 10;
 yscatter = 10;
 xdrift = 0;
 ydrift = 0;
-if(room == gamePlay_room){
 trail = trail_create(length,x,y);
-FirstParticleSystem = part_system_create();
-part_system_depth(FirstParticleSystem,0);
-
-first_particle = part_type_create();
-part_type_shape(first_particle,pt_shape_line);
-part_type_scale(first_particle,1,1);
-part_type_size(first_particle,0.10,0.15,-.001,0);
-part_type_speed(first_particle,0.1,0.5,0,0);
-part_type_direction(first_particle,0,0,90,0);
-part_type_gravity(first_particle,0.001,90);
-part_type_orientation(first_particle,0,359,10,0,true);
-part_type_life(first_particle,50,100);
-part_type_blend(first_particle,true);
-
-first_emitter = part_emitter_create(FirstParticleSystem);
-part_emitter_region(FirstParticleSystem, first_emitter, x-20, x+20, y-20, y+20, ps_shape_ellipse, ps_distr_gaussian);
-part_emitter_stream(FirstParticleSystem,first_emitter,first_particle,1);
-}
+capLineX1 = x;
+capLineY1 = y;
+capLineX2 = x;
+capLineY2 = y;
 </string>
           </argument>
         </arguments>
@@ -81,6 +68,49 @@ part_emitter_stream(FirstParticleSystem,first_emitter,first_particle,1);
             <string>trail_update(trail,x,y);
 trail_drift(trail,xdrift,ydrift);
 trail_scatter(trail,xscatter,yscatter);
+if(!active){
+        capLineX2 = x; 
+        capLineY2 = y;
+        image_speed = 0;        
+        image_index = 0;
+        beamActive = false;
+}
+if(active){
+    if(!beamActive){
+        image_speed = 3;
+    } else {        
+        image_speed = 0;        
+        image_index = 0;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="bullet">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(active){   
+    capLineX2 = enemySpawner.x;
+    capLineY2 = enemySpawner.y;
+    beamActive = true;
+}
+
 </string>
           </argument>
         </arguments>
@@ -105,6 +135,7 @@ trail_scatter(trail,xscatter,yscatter);
             <kind>1</kind>
             <string>draw_trail(trail,w1,w2,c1,c2,a1,a2);
 draw_sprite_ext(sprite_index,-1,x,y,1,1,-phy_rotation,c_white,1);
+draw_line(capLineX1, capLineY1, capLineX2, capLineY2);
 </string>
           </argument>
         </arguments>
@@ -123,7 +154,7 @@ draw_sprite_ext(sprite_index,-1,x,y,1,1,-phy_rotation,c_white,1);
   <PhysicsObjectAwake>0</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>39,39</point>
+    <point>50,50</point>
     <point>36,38</point>
   </PhysicsShapePoints>
 </object>
